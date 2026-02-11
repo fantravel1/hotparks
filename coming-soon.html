@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Coming Soon — HotParks | The World's Greatest Parks, Ranked by Vibe</title>
+    <meta name="description" content="This page is coming soon to HotParks. We're building the world's most comprehensive park discovery engine — ranking every park by vibe, wildness, and how alive it truly feels.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://hotparks.com/coming-soon">
+
+    <meta property="og:title" content="Coming Soon — HotParks">
+    <meta property="og:description" content="We're building something extraordinary. The world's greatest parks — ranked by vibe.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hotparks.com/coming-soon">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&h=630&fit=crop&q=80">
+
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="coming-soon-page">
+
+    <!-- Navigation -->
+    <nav class="nav nav--dark" id="nav">
+        <div class="nav__inner">
+            <a href="/" class="nav__logo">
+                <span class="nav__logo-hot">HOT</span><span class="nav__logo-parks">PARKS</span>
+            </a>
+            <div class="nav__links" id="navLinks">
+                <a href="/" class="nav__link">Home</a>
+                <a href="coming-soon.html" class="nav__link">Wild Parks</a>
+                <a href="coming-soon.html" class="nav__link">City Parks</a>
+                <a href="coming-soon.html" class="nav__link">Top 100</a>
+                <a href="coming-soon.html" class="nav__link nav__link--cta">Parks Near Me</a>
+            </div>
+            <button class="nav__burger" id="navBurger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__inner">
+            <a href="/" class="mobile-menu__link">Home</a>
+            <a href="coming-soon.html" class="mobile-menu__link">Wild Parks</a>
+            <a href="coming-soon.html" class="mobile-menu__link">City Parks</a>
+            <a href="coming-soon.html" class="mobile-menu__link">Cultural Parks</a>
+            <a href="coming-soon.html" class="mobile-menu__link">Water Parks</a>
+            <a href="coming-soon.html" class="mobile-menu__link">Top 100</a>
+            <a href="coming-soon.html" class="mobile-menu__link mobile-menu__link--cta">Parks Near Me</a>
+        </div>
+    </div>
+
+    <!-- Coming Soon Hero -->
+    <section class="cs-hero">
+        <div class="cs-hero__bg">
+            <picture>
+                <source media="(max-width: 768px)" srcset="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=1200&fit=crop&q=80">
+                <source media="(max-width: 1200px)" srcset="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1400&h=900&fit=crop&q=80">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1920&h=1080&fit=crop&q=80" alt="Foggy mountain valley with sunlight breaking through — HotParks coming soon" class="cs-hero__img" loading="eager">
+            </picture>
+            <div class="cs-hero__overlay"></div>
+        </div>
+        <div class="cs-hero__content">
+            <div class="cs-hero__badge">
+                <span class="cs-hero__pulse"></span>
+                <span>Under Construction</span>
+            </div>
+            <h1 class="cs-hero__title">Something<br><em>Extraordinary</em><br>Is Coming</h1>
+            <p class="cs-hero__subtitle">We're building this page right now. The world's greatest parks — ranked by how alive they feel — are almost ready for you.</p>
+
+            <div class="cs-hero__scores">
+                <div class="cs-hero__score">
+                    <span class="cs-hero__score-num">&#128293;</span>
+                    <span class="cs-hero__score-label">HOT Score</span>
+                </div>
+                <div class="cs-hero__score">
+                    <span class="cs-hero__score-num">&#127794;</span>
+                    <span class="cs-hero__score-label">Wildness</span>
+                </div>
+                <div class="cs-hero__score">
+                    <span class="cs-hero__score-num">&#128694;</span>
+                    <span class="cs-hero__score-label">Ease</span>
+                </div>
+            </div>
+
+            <div class="cs-hero__actions">
+                <a href="/" class="btn btn--primary btn--large">Explore the Homepage</a>
+            </div>
+
+            <div class="cs-hero__newsletter">
+                <p>Get notified when we launch:</p>
+                <form class="cs-hero__form" action="#" method="get">
+                    <div class="newsletter__input-wrap">
+                        <input type="email" placeholder="your@email.com" class="newsletter__input" aria-label="Email address" required>
+                        <button type="submit" class="btn btn--primary newsletter__btn">Notify Me</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Animated particles -->
+        <div class="cs-particles" aria-hidden="true">
+            <div class="cs-particle cs-particle--1"></div>
+            <div class="cs-particle cs-particle--2"></div>
+            <div class="cs-particle cs-particle--3"></div>
+            <div class="cs-particle cs-particle--4"></div>
+            <div class="cs-particle cs-particle--5"></div>
+            <div class="cs-particle cs-particle--6"></div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
